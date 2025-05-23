@@ -1,0 +1,99 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Refeições</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Refeições</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card>
+    <img alt="Prato de Pernil Javali Assado" src="../../assets/img/Javali.jpg" />
+    <ion-card-header>
+      <ion-card-title>Pernil Javali Assado</ion-card-title>
+      <ion-card-subtitle>Prato Principal</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <Fieldset>
+        Uma combinação clássica e nutritiva, perfeita para qualquer refeição do dia.
+        Corte nobre de Pernil de javali marinado em vinho e ervas do bosque, assado lentamente até alcançar o ponto perfeito de suculência.
+      </Fieldset>
+    </ion-card-content>
+    <div class="btnComprar">
+      <ion-item lines="none">
+        <p>49,90 R$</p>
+        <ion-button color="warning" (click)="comprar()">Comprar</ion-button>
+      </ion-item>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <img alt="Ensopado De Cordeiro " src="../../assets/img/EnsopadoCordeiro.webp" />
+    <ion-card-header>
+      <ion-card-title>Ensopado De Cordeiro </ion-card-title>
+      <ion-card-subtitle>Prato Principal</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <Fieldset>
+        Um caldeirão fumegante de carne de cordeiro, cenouras e raízes da floresta, cozidos por horas sob fogo brando. Prato tradicional das cortes do norte.
+      </Fieldset>
+    </ion-card-content>
+    <div class="btnComprar">
+      <ion-item lines="none">
+        <p>42,00 R$</p>
+        <ion-button color="warning" (click)="comprar()">Comprar</ion-button>
+      </ion-item>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <img alt="Frango na Brasa" src="../../assets/img/Frango na Brasa.jpg" />
+    <ion-card-header>
+      <ion-card-title>Frango na Brasa</ion-card-title>
+      <ion-card-subtitle>Prato Principal</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <Fieldset>
+        Frango inteiro dourado na brasa com tempero secreto da taverna, servido com folhas rústicas e molho de alho negro.
+      </Fieldset>
+    </ion-card-content>
+    <div class="btnComprar">
+      <ion-item lines="none">
+        <p>39,90 R$</p>
+        <ion-button color="warning" (click)="comprar()">Comprar</ion-button>
+      </ion-item>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <img alt="Torta do Castelo" src="../../assets/img/Torta Carne.avif" />
+    <ion-card-header>
+      <ion-card-title>Torta do Castelo</ion-card-title>
+      <ion-card-subtitle>Prato Principal</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <Fieldset>
+        Massa dourada recheada com pedaços de carne bovina e especiarias exóticas vindas das caravanas do deserto oriental.
+      </Fieldset>
+    </ion-card-content>
+    <div class="btnComprar">
+      <ion-item lines="none">
+        <p>35,00 R$</p>
+        <ion-button color="warning" (click)="comprar()">Comprar</ion-button>
+      </ion-item>
+    </div>
+  </ion-card>
+
+ 
+</ion-content>

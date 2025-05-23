@@ -1,0 +1,98 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Complementos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Complementos</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card>
+    <img alt="Pão com Alho" src="../../assets/img/Pão com Alho.webp" />
+    <ion-card-header>
+      <ion-card-title>Pão com Alho</ion-card-title>
+      <ion-card-subtitle>Acompanhamentos</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <Fieldset>
+        Fatias espessas de pão de trigo artesanal, embebidas em manteiga de alho e douradas sobre a brasa da taverna.
+      </Fieldset>
+    </ion-card-content>
+    <div class="btnComprar">
+      <ion-item lines="none">
+        <p>9,90 R$</p>
+        <ion-button color="warning" (click)="comprar()">Comprar</ion-button>
+      </ion-item>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <img alt="Batatas do Reino" src="../../assets/img/Batatas do Reino.webp" />
+    <ion-card-header>
+      <ion-card-title>Batatas do Reino</ion-card-title>
+      <ion-card-subtitle>Acompanhamentos</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <Fieldset>
+        Batatas jovens assadas em ervas secas e sal marinho, com crosta crocante e interior macio como os mantos da realeza.
+      </Fieldset>
+    </ion-card-content>
+    <div class="btnComprar">
+      <ion-item lines="none">
+        <p>13,00 R$</p>
+        <ion-button color="warning" (click)="comprar()">Comprar</ion-button>
+      </ion-item>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <img alt="Cogumelos da Floresta" src="../../assets/img/Cogumelos da Floresta.jpg" />
+    <ion-card-header>
+      <ion-card-title>Cogumelos da Floresta</ion-card-title>
+      <ion-card-subtitle>Acompanhamentos</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <Fieldset>
+        Seleção de cogumelos selvagens salteados em azeite de nozes e finalizados com vinho branco das montanhas.
+      </Fieldset>
+    </ion-card-content>
+    <div class="btnComprar">
+      <ion-item lines="none">
+        <p>14,00 R$</p>
+        <ion-button color="warning" (click)="comprar()">Comprar</ion-button>
+      </ion-item>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <img alt="Queijo de Cabra" src="../../assets/img/Queijo de Cabra.png" />
+    <ion-card-header>
+      <ion-card-title>Queijo de Cabra</ion-card-title>
+      <ion-card-subtitle>Acompanhamentos</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <Fieldset>
+        Queijo curado em cavernas, com sabor levemente picante, ideal para acompanhar hidromel ou vinho seco.
+      </Fieldset>
+    </ion-card-content>
+    <div class="btnComprar">
+      <ion-item lines="none">
+        <p>26,50 R$</p>
+        <ion-button color="warning" (click)="comprar()">Comprar</ion-button>
+      </ion-item>
+    </div>
+  </ion-card>
+
+
+</ion-content>

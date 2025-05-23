@@ -1,0 +1,97 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Lanches</ion-title> 
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Lanches</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card>
+    <img alt="Tábua de Pães Rústicos" src="../../assets/img/Tábua de Pães Rústicos.jpg" />
+    <ion-card-header>
+      <ion-card-title>Tábua de Pães Rústicos</ion-card-title>
+      <ion-card-subtitle>Porção</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <Fieldset>
+        Variedade de pães feitos com farinhas antigas, levedados com ervas e assados em forno a lenha. Servido com azeite e sal grosso.
+      </Fieldset>
+    </ion-card-content>
+    <div class="btnComprar">
+      <ion-item lines="none">
+        <p>24,00 R$</p>
+        <ion-button color="warning" (click)="comprar()">Comprar</ion-button>
+      </ion-item>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <img alt="Sanduíche de Carne" src="../../assets/img/Sanduiche de Carne.jpg" />
+    <ion-card-header>
+      <ion-card-title>Sanduíche de Carne</ion-card-title>
+      <ion-card-subtitle>Individual</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <Fieldset>
+        	Um lanche robusto com carne de boi assada, cebolas caramelizadas e queijo defumado, envolto em crosta espessa e crocante.
+      </Fieldset>
+    </ion-card-content>
+    <div class="btnComprar">
+      <ion-item lines="none">
+        <p>27,50 R$</p>
+        <ion-button color="warning" (click)="comprar()">Comprar</ion-button>
+      </ion-item>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <img alt="Torta de Legumes" src="../../assets/img/Torta de Legumes.webp" />
+    <ion-card-header>
+      <ion-card-title>Torta de Legumes</ion-card-title>
+      <ion-card-subtitle>Refeição Leve</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <Fieldset>
+        Torta de massa amanteigada recheada com abóbora, alho-poró e cogumelos, colhidos no bosque ao amanhecer.
+      </Fieldset>
+    </ion-card-content>
+    <div class="btnComprar">
+      <ion-item lines="none">
+        <p> 22,00 R$</p>
+        <ion-button color="warning" (click)="comprar()">Comprar</ion-button>
+      </ion-item>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <img alt="lanche de Javali" src="../../assets/img/lanche de Javali.png" />
+    <ion-card-header>
+      <ion-card-title>lanche de Javali</ion-card-title>
+      <ion-card-subtitle>Individual</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <Fieldset>
+        Fatias generosas de carne curada de javali, queijo de cabra cremoso e folhas amargas no pão preto de cevada.
+      </Fieldset>
+    </ion-card-content>
+    <div class="btnComprar">
+      <ion-item lines="none">
+        <p>26,00 R$</p>
+        <ion-button color="warning" (click)="comprar()">Comprar</ion-button>
+      </ion-item>
+    </div>
+  </ion-card>
+
+</ion-content>

@@ -1,0 +1,97 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Bebidas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Bebidas</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card>
+    <img alt="Hidromel" src="../../assets/img/Hidromel.webp" />
+    <ion-card-header>
+      <ion-card-title>Hidromel</ion-card-title>
+      <ion-card-subtitle>500ml</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <Fieldset>
+       Hidromel dourado fermentado com mel da colina das abelhas negras. Doce, forte e ancestral, a melhor de todas tavernas.
+      </Fieldset>
+    </ion-card-content>
+    <div class="btnComprar">
+      <ion-item lines="none">
+        <p> 35,00 R$</p>
+        <ion-button color="warning" (click)="comprar()">Comprar</ion-button>
+      </ion-item>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <img alt="Cerveja Medieval" src="../../assets/img/Cerveja Medieval.jpg" />
+    <ion-card-header>
+      <ion-card-title>Cerveja Medieval</ion-card-title>
+      <ion-card-subtitle>350ml</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <Fieldset>
+        Escura e espessa, feita com malte tostado nas fornalhas das montanhas. Final amargo e espuma densa.
+      </Fieldset>
+    </ion-card-content>
+    <div class="btnComprar">
+      <ion-item lines="none">
+        <p> 23,00 R$</p>
+        <ion-button color="warning" (click)="comprar()">Comprar</ion-button>
+      </ion-item>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <img alt="Vinho Real" src="../../assets/img/Vinho.jpg" />
+    <ion-card-header>
+      <ion-card-title>Vinho Real</ion-card-title>
+      <ion-card-subtitle>700ml</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <Fieldset>
+        Colheita reservada dos vinhedos do Vale Carmesim. Encorpado, com notas de amora negra, ideal para banquetes.
+      </Fieldset>
+    </ion-card-content>
+    <div class="btnComprar">
+      <ion-item lines="none">
+        <p> 99,99 R$</p>
+        <ion-button color="warning" (click)="comprar()">Comprar</ion-button>
+      </ion-item>
+    </div>
+  </ion-card>
+
+   <ion-card>
+    <img alt="Suco de Frutos Silvestres" src="../../assets/img/Suco de Frutos Silvestres.jpg" />
+    <ion-card-header>
+      <ion-card-title>Suco de Frutos Silvestres</ion-card-title>
+      <ion-card-subtitle>320ml</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <Fieldset>
+        Bebida refrescante feita com frutos silvestres, como groselha, mirtilo e framboesa. Delicado e perfumado.
+      </Fieldset>
+    </ion-card-content>
+    <div class="btnComprar">
+      <ion-item lines="none">
+        <p>20,00 R$</p>
+        <ion-button color="warning" (click)="comprar()">Comprar</ion-button>
+      </ion-item>
+    </div>
+  </ion-card>
+
+</ion-content>
